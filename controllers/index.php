@@ -19,7 +19,7 @@ class Index extends Controller{
 		$this->view->almanacka = $this->almanacka();
 		
 		//give title for header
-		$this->view->title = "Soldagar";
+		$this->view->title = "Soldagar | Hemsidor | Grafisk Hjälp | Mediaproduktion";
 		
 		//render the view
 		$this->view->render('index');
@@ -180,7 +180,7 @@ class Index extends Controller{
 
 		//html structure of the calender
 		$echo = "<div class='calender'>"; 
-		$echo = $echo. "<p class='monthtitle'>".$months[($initMonth-1)]." ".$initYear."<i title='Se vilka som signerat i Solboken' id='guestbook' class='fa fa-book float-right guestbook'></i></p>";
+		$echo = $echo. "<p class='monthtitle'>".$months[($initMonth-1)]." ".$initYear."<div id='guestbook' class='lead float-right  guestbook' >öppna solboken <i title='Se vilka som signerat i Solboken'  class='fa fa-book'></i></div></p>";
 		$echo = $echo. "<p class='monthtitle2'>Du är välkommen att signera i vår Solbok, välj din dag i alamanackan.</p><hr>";
 		$echo = $echo. $this->month2table($initMonth, $cal, $initYear, $sunnyDays);	
 		$echo = $echo. "<div class='sign' id='sign'>";

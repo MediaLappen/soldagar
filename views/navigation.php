@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
   <a class="navbar-brand" href="index"><img class="logotyp-img" alt="soldagar - logotyp" title="Soldagar.se" src="public/img/soldagar-logo-small.png"><div class="logotyp-text" title="Soldagar.se" alt="text SVG Vektorgrafik"></div></a>
-  <h1 class="sandheader">Hemsidor, Media, Grafisk Hjälp & Reklamproduktion</h1>
-  <p class="inline-text">MediaLappen får solen att lysa mer på ert företag</p>
+  <h1 class="sandheader">Hemsidor, Grafisk Hjälp & Mediaproduktion</h1>
+  <p class="inline-text">Få solen att lysa mer på ert företag</p>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
