@@ -1,2 +1,2 @@
-# bokadmin
 # soldagar
+# https://soldagar.se
